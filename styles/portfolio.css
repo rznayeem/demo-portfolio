@@ -103,6 +103,10 @@ main {
   margin: 0px auto;
 }
 
+main section {
+  margin-top: 130px;
+}
+
 .about {
   margin: 130px 0;
   width: auto;
@@ -129,6 +133,7 @@ main {
 
 .about-info {
   margin-right: 50px;
+  text-align: center;
 }
 
 .info-title {
@@ -144,4 +149,37 @@ main {
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
+}
+
+#what-i-do-description {
+  padding: 30px 115px;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  gap: 30px;
+
+}
+
+.skills {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  /* margin: 50px 24px 0 0; */
+  padding: 30px;
+}
+
+.skill-title {
+  padding: 30px 0 20px 0;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px
 }
