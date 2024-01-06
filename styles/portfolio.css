@@ -55,3 +55,13 @@ nav a {
   font-size: 20px;
   font-weight: 700;
 }
+
+.banner {
+  padding: 30px 30px 30px 230px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-img {
+  width: 580px;
+}
